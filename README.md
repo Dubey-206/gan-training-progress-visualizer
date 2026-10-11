@@ -2,7 +2,7 @@
 
 An interactive experiment dashboard and training pipeline for Generative Adversarial Networks (GANs).
 
-Academic Context
+# Academic Context
 
 This project was developed as part of Innovative Assignment II for the Deep Learning Essentials course, under Batch 13.
 
