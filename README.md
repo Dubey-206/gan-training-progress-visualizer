@@ -2,15 +2,32 @@
 
 An interactive experiment dashboard and training pipeline for Generative Adversarial Networks (GANs).
 
-# Academic Context
+## Academic Context
 
-This project was developed as part of Innovative Assignment II for the Deep Learning Essentials course, under Batch 13.
+This project was developed as part of **Innovative Assignment II** for the **Deep Learning Essentials** course, under **Batch 13**.
 
-Assigned Topic: GAN Training Progress Visualizer
-
-Problem Statement: Create an application that records and displays generated images at different stages of GAN training to observe how the generator improves its outputs.
+- **Assigned Topic:** GAN Training Progress Visualizer
+- **Student:** Shri Charan L
+- **Problem Statement:** Create an application that records and displays generated images at different stages of GAN training to observe how the generator improves its outputs.
 
 The assignment focuses on applying Generative Adversarial Network (GAN) fundamentals through a practical implementation. This project combines a PyTorch-based GAN trained on the MNIST handwritten-digit dataset with an interactive dashboard for examining generated images and recorded training metrics.
+
+---
+
+## 🎬 Dashboard Demonstration Video
+
+https://github.com/user-attachments/assets/demo_recording.mp4
+
+> **Screen Recording Walkthrough (`screenshots/demo_recording.mp4`):**
+> Demonstrates the live Streamlit experiment dashboard navigating the 20-epoch training run.
+> 1. **Header & Experiment Overview:** Live metric cards showing epoch progression (20 / 20 epochs completed), final Generator BCE loss (`0.7876`), final Discriminator BCE loss (`0.6708`), and average duration (~28.2s/epoch).
+> 2. **Generated Image Gallery:** Interactive slider traversing all saved snapshots from Epoch 0 (untrained Gaussian noise baseline) to Epoch 20 (clear, converged handwritten digits) decoded from the frozen 64-vector latent tensor.
+> 3. **Training Analytics & Plotly Charts:** Interactive loss curves tracking the zero-sum minimax competition against the theoretical Nash equilibrium ($\ln 2 \approx 0.693$) and computation durations.
+> 4. **Tabular Metrics & CSV Export:** Complete epoch log inspection and download.
+
+![Dashboard Preview](screenshots/preview_5s.png)
+
+---
 
 ## Objective
 
