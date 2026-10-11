@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# PyTorch / Training artifacts
+outputs/samples/*.png
+outputs/metrics/*.csv
+outputs/checkpoints/*.pt
+outputs/checkpoints/*.pth
+
+# Downloaded datasets
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Keep output directory structure but not contents
+!outputs/samples/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/checkpoints/.gitkeep
+!screenshots/.gitkeep
