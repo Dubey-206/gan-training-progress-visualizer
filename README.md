@@ -2,6 +2,16 @@
 
 An interactive experiment dashboard and training pipeline for Generative Adversarial Networks (GANs).
 
+Academic Context
+
+This project was developed as part of Innovative Assignment II for the Deep Learning Essentials course, under Batch 13.
+
+Assigned Topic: GAN Training Progress Visualizer
+
+Problem Statement: Create an application that records and displays generated images at different stages of GAN training to observe how the generator improves its outputs.
+
+The assignment focuses on applying Generative Adversarial Network (GAN) fundamentals through a practical implementation. This project combines a PyTorch-based GAN trained on the MNIST handwritten-digit dataset with an interactive dashboard for examining generated images and recorded training metrics.
+
 ## Objective
 
 Build an application that records and displays generated images at different stages of GAN (Generative Adversarial Network) training to observe how the generator improves its outputs over time.
