@@ -14,18 +14,18 @@ The assignment focuses on applying Generative Adversarial Network (GAN) fundamen
 
 ---
 
-## 🎬 Dashboard Demonstration Video
+## 🎬 Dashboard Demonstration
 
-https://github.com/user-attachments/assets/demo_recording.mp4
+![GAN Visualizer Walkthrough](screenshots/demo_walkthrough.gif)
 
-> **Screen Recording Walkthrough (`screenshots/demo_recording.mp4`):**
-> Demonstrates the live Streamlit experiment dashboard navigating the 20-epoch training run.
+> 📹 **Full High-Definition Video:** [Watch / Download screenshots/demo_recording.mp4](https://raw.githubusercontent.com/Dubey-206/gan-training-progress-visualizer/main/screenshots/demo_recording.mp4)
+>
+> **Screen Recording Walkthrough Overview:**
 > 1. **Header & Experiment Overview:** Live metric cards showing epoch progression (20 / 20 epochs completed), final Generator BCE loss (`0.7876`), final Discriminator BCE loss (`0.6708`), and average duration (~28.2s/epoch).
 > 2. **Generated Image Gallery:** Interactive slider traversing all saved snapshots from Epoch 0 (untrained Gaussian noise baseline) to Epoch 20 (clear, converged handwritten digits) decoded from the frozen 64-vector latent tensor.
-> 3. **Training Analytics & Plotly Charts:** Interactive loss curves tracking the zero-sum minimax competition against the theoretical Nash equilibrium ($\ln 2 \approx 0.693$) and computation durations.
-> 4. **Tabular Metrics & CSV Export:** Complete epoch log inspection and download.
-
-![Dashboard Preview](screenshots/preview_5s.png)
+> 3. **Longitudinal Comparison:** Side-by-side progression between the untrained baseline and the final trained digits.
+> 4. **Training Analytics & Plotly Charts:** Interactive loss curves tracking the zero-sum minimax competition against the theoretical Nash equilibrium ($\ln 2 \approx 0.693$) and computation durations.
+> 5. **Tabular Metrics & CSV Export:** Complete epoch log inspection and download.
 
 ---
 
